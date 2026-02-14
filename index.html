@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Add <img src="images/tooplate_body.jpg" alt=""> as background img -->
     <div id="container">
+        <img id="background_image" src="images/tooplate_body.jpg" alt="">
         <div id="header">
-            <div id="part1">logo area</div>
-            <div id="part2">search area</div>
+            <div id="logo">
+                <img src="images/tooplate_logo.png" alt="Logo">
+            </div>
+            <div id="social-media-logos">
+                <img src="images/facebook.png" alt="Facebook" class="social-logo">
+                <img src="images/myspace.png" alt="MySpace" class="social-logo">
+                <img src="images/twitter.png" alt="Twitter" class="social-logo">
+            </div>
         </div>
         <div id="navigation">
-            <ul>
+            <img src="images/tooplate_menu.png" alt="Menu Icon" id="menu-icon">
+            <div id="nav-links">
+                <ul>
                 <li><a href="index.html">Home</a></li>
                 <!-- Gallery, News, Blog, Contact -->
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="news.html">News</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div id="search-bar">
+                <ul>
                 <table>
                     <tr>
                         <td><input type="text" name="search" id="search"></td>
                         <td><button type="button" id="search-button">Search</button></td>
                     </tr>
                 </table>
-            </ul>
+                </ul>
+            </div>
         </div>
         <div id="content">
             <div>
